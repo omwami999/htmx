@@ -40,6 +40,9 @@ By removing these arbitrary constraints htmx completes HTML as a
   <button hx-post="/clicked" hx-swap="outerHTML">
     Click Me
   </button>
+<!--opening a web socket--!>
+
+<var Socket = new WebSocket(url, [protocal] );>
 ```
 
 The [`hx-post`](https://htmx.org/attributes/hx-post) and [`hx-swap`](https://htmx.org/attributes/hx-swap) attributes tell htmx:
